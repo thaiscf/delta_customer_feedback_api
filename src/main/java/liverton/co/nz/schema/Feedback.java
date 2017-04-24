@@ -1,13 +1,30 @@
 package liverton.co.nz.schema;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.springframework.beans.factory.annotation.Required;
+
+import javax.validation.constraints.NotNull;
 
 @ApiModel
 public class Feedback {
 
+    @JsonProperty(value = "description", required = true)
+    @NotNull
+    @ApiModelProperty(required = true)
     private String description;
+
+    @JsonProperty(value = "customer", required = true)
+    @NotNull
+    @ApiModelProperty(required = true)
     private Customer customer;
+
+    @JsonProperty(value = "product", required = true)
+    @NotNull
+    @ApiModelProperty(required = true)
     private Product product;
+
     private String sentTo;
 
     public String getDescription() {
