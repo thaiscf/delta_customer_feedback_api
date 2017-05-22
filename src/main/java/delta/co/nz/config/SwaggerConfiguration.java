@@ -1,4 +1,4 @@
-package liverton.co.nz.config;
+package delta.co.nz.config;
 
 
 import com.fasterxml.classmate.TypeResolver;
@@ -32,7 +32,7 @@ public class SwaggerConfiguration {
     public Docket customerFeedbackApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("liverton.co.nz.controller"))
+                .apis(RequestHandlerSelectors.basePackage("delta.co.nz.controller"))
                 .paths(PathSelectors.any())
                 .build()
                 .pathMapping("/")

@@ -1,7 +1,7 @@
-package liverton.co.nz.service;
+package delta.co.nz.service;
 
-import liverton.co.nz.repository.CustomerRepository;
-import liverton.co.nz.schema.Customer;
+import delta.co.nz.repository.CustomerRepository;
+import delta.co.nz.schema.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

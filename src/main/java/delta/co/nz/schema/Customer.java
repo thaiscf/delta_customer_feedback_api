@@ -1,4 +1,4 @@
-package liverton.co.nz.schema;
+package delta.co.nz.schema;
 
 import io.swagger.annotations.ApiModel;
 import org.springframework.data.annotation.Id;

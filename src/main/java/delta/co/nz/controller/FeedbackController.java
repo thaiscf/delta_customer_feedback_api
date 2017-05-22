@@ -1,10 +1,10 @@
-package liverton.co.nz.controller;
+package delta.co.nz.controller;
 
+import delta.co.nz.schema.Feedback;
+import delta.co.nz.service.FeedbackService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
-import liverton.co.nz.schema.Feedback;
-import liverton.co.nz.service.FeedbackService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

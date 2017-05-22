@@ -1,9 +1,8 @@
-package liverton.co.nz.service;
+package delta.co.nz.service;
 
-import liverton.co.nz.repository.FeedbackRepository;
-import liverton.co.nz.repository.ProductRepository;
-import liverton.co.nz.schema.Feedback;
-import liverton.co.nz.schema.Product;
+import delta.co.nz.repository.FeedbackRepository;
+import delta.co.nz.repository.ProductRepository;
+import delta.co.nz.schema.Feedback;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-### Liverton Customer Feedback API
+### Delta Customer Feedback API
 This repository contains the source code for the Customer Feedback API
 
 ## Requirements
